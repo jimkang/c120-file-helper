@@ -1,0 +1,27 @@
+{
+  "name": "c120-file-helper",
+  "version": "1.0.0",
+  "description": "Help with files that you get from your Tapo c120's SD card",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jimkang/c120-file-helper.git"
+  },
+  "keywords": [],
+  "author": "Jim Kang",
+  "license": "Polyform Noncommercial License 1.0",
+  "bugs": {
+    "url": "https://github.com/jimkang/c120-file-helper/issues"
+  },
+  "homepage": "https://github.com/jimkang/c120-file-helper",
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "eslint-plugin-html": "^8.1.2"
+  },
+  "dependencies": {
+    "prettier": "^2.8.3"
+  }
+}
