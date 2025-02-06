@@ -57,3 +57,7 @@ The script gives you results like this:
     ]
 
 Each entry in the array has the target date you wanted, the filename that has that date, and then next file after it, in case you need it.
+
+# Extracting audio from the relevant video files.
+
+You can pass a file with the output of find-video-files-for-date-times.js to generate-audio-extraction-script.js to create a bash script that will extract the audio from those video files.
