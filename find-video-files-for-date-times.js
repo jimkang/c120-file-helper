@@ -23,8 +23,8 @@ filenameStartDates.sort();
 var targetDates = dateTimes.map(dateTimeStringToDate);
 // console.log(targetDates);
 
-var containingFiles = targetDates.map(getContainingFile);
-console.log(containingFiles);
+var containingFiles = targetDates.map(getContainingFile).filter((o) => !!o);
+console.log(JSON.stringify(containingFiles, null, 2));
 
 function filenameToDateRange(filename) {
   var parts = filename.split('_');
